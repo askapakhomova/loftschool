@@ -1,12 +1,14 @@
 <?php
-
 // Задание #4
-$day = 4;
+
+$day = (int) $_GET['day'];
+
 switch ($day) {
     case 0:
     default:
         echo "Неизвестный день";
         break;
+
     case ($day >= 1 && $day <= 5):
         echo "Это рабочий день";
         break;
