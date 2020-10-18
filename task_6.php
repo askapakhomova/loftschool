@@ -18,6 +18,8 @@ for ($row=1; $row <= 10; $row++) {
 }
 echo "</table>";
 
+$a = 0 === false;
+echo $a;
 
 
 
